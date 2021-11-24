@@ -1,3 +1,4 @@
+@digimon
 Feature: Executar Testes duncionais nas  APIs do Digimon
 
 Scenario: Verificar o retorno com sucesso da API /digimon/name/Garurumon com dados válidos de requisição (request)

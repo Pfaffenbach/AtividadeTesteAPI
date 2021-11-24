@@ -10,7 +10,7 @@ public class digimonTestRunner {
     @Test
     void testParallel() {
         Results results = Runner.path("classpath:testeAPI")
-                .tags("~@ignore")
+                .tags("@digimon")
                 //.outputCucumberJson(true)
                 .parallel(5);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
